@@ -189,7 +189,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage)
 	                const xeondate = moment.tz('Asia/Kolkata').format('YYYY/MM/DD')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "923459649063-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                      xeonbody = `🐬 Bye👋 @${xeonName.split("@")[0]}
 
 🍁 Left From  ${metadata.subject}
@@ -205,7 +205,7 @@ Time ⏰ =  ${xeontime} `
     let buttonMessage = {
         image: { url: 'https://i.ibb.co/gytytkM/images.jpg'},
     caption: xeonbody,
-    footer: `⚜𝓑𝓵𝓾𝓮 𝓛𝓲𝓸𝓷𝓮⚜`,
+    footer: `مر شد عاصم`,
     buttons,
     headerType: 4
     }
